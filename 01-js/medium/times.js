@@ -8,7 +8,6 @@ Hint - use Date class exposed in JS
 */
 
 function calculateTime(n) {
-
     let startTime = new Date().getTime();
     let sum = 0;
     for(let i=0; i<n; i++) {
